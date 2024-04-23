@@ -8,8 +8,9 @@ public class RandomStringChooser
       words.add(wordlist[i]);
   }
   public String getNext(){
-    if(words.size()<=0)
+    if(words.size()<=0){
       return "NONE";
+    }
     else{
       int indexrand=(int)(Math.random()*words.size());
       return words.get(indexrand);
