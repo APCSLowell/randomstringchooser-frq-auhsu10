@@ -13,8 +13,7 @@ public class RandomStringChooser
     }
     else{
       int indexrand=(int)(Math.random()*words.size());
-      return words.get(indexrand);
-      words.remove(indexrand);
+      return words.remove(indexrand);
     }
   }
   //Heads up! 
